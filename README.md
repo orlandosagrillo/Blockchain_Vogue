@@ -1,5 +1,7 @@
 # Blockchain_Vogue
 
+!['NFF Header image'](./FINTECH/Pictures/blockchain.jpg)
+
 This project offers a Streamlit-based user interface where users may select from a variety of options, and this software mints a Non Fungible Token with each physical product purchase. The NFT is subsequently sent to a wallet address specified by the user.  The customer can purchase designer goods directly from the Streamlit UI, and each purchase of a designer good generates a Non Fungible Token (NFT) as proof of ownership. The user-specified wallet address receives NFT transfers.
 
 # Conceptualization
