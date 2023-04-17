@@ -9,6 +9,10 @@ This project offers a Streamlit-based user interface where users may select from
 
 A prototype stage user interface for an anti-counterfeit tool has been created by fintech company "Blockchain_Vogue" to show the security and quality of life advantages it can provide. This kind of action can reduce the unlawful trade in counterfeit goods while simultaneously maximising revenues for the manufacturer of genuine high-end products in a global market that is always changing.
 
+# Non Fungible Tokens in the Clothing Industry
+
+The market for high-end luxury goods is expected to reach USD 419 billion in 2027 after growing at a CAGR of 3.7% from USD 349.1 billion in 2022. About 30 billion dollars are lost annually due to counterfeit goods, and using an NFT as evidence of purchase will make it more difficult for people to make money off of bogus goods. NFT will not only confirm the legitimacy of the goods but also present a fantastic opportunity.
+
 ## Streamlit 
 
 Website: https://streamlit.io/ 
@@ -31,9 +35,6 @@ Documentation: https://docs.soliditylang.org/en/v0.8.17/
 Website: https://remix-project.org/ 
 Documentation : https://remix-ide.readthedocs.io/en/latest/ 
 
-# Non Fungible Tokens in the Clothing Industry
-
-The market for high-end luxury goods is expected to reach USD 419 billion in 2027 after growing at a CAGR of 3.7% from USD 349.1 billion in 2022. About 30 billion dollars are lost annually due to counterfeit goods, and using an NFT as evidence of purchase will make it more difficult for people to make money off of bogus goods. NFT will not only confirm the legitimacy of the goods but also present a fantastic opportunity.
 
 ## IPFS and Pinata
 
