@@ -15,12 +15,12 @@ The market for high-end luxury goods is expected to reach USD 419 billion in 202
 
 ## Streamlit 
 
+To download streamlit run 'pip install streamlit' 
 Website: https://streamlit.io/ 
 Documentation: https://docs.streamlit.io/ 
-To install streamlit run pip install streamlit 
 
-Before you get started, you're going to need a few things:
 
+Needed additions:
 text editor or IDE 
 Python 3.7 - Python 3.11
 PIP 
