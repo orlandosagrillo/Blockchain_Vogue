@@ -3,41 +3,41 @@ pragma solidity ^0.5.0;
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/release-v2.5.0/contracts/token/ERC721/ERC721Full.sol";
 
 contract ShopRegistry is ERC721Full {
-    constructor() public ERC721Full("ShopRegistryToken", "FASHION") {}
+    constructor() public ERC721Full("ShopRegistryToken", "VOGUE") {}
 
     struct Item {
         string name;
-        string manufacturer;
-        uint256 itemValue;
-        string fashionJson;
+        string brand;
+        uint256 itemAmount;
+        string vogueJson;
 }
 
-    mapping(uint256 => Item) public fashionCollection;
+    mapping(uint256 => Item) public vogueCollection;
 
-    event Buy(uint256 tokenId, uint256 itemValue, string reportURI, string fashionJson);
+    event Buy(uint256 tokenId, uint256 itemAmount, string reportURI, string vogueJson);
     
     function imageUri(
         uint256 tokenId
 
     ) public view returns (string memory imageJson){
-        return fashionCollection[tokenId].fashionJson;
+        return vogueCollection[tokenId].vogueJson;
     }
 
 
-    function purchaseItem(
+    function buyItem(
         address owner,
         string memory name,
-        string memory manufacturer,
+        string memory brand,
         uint256 itemCost,
         string memory tokenURI,
         string memory tokenJSON
     ) public returns (uint256) {
-        uint256 tokenId = totalSupply();
+        uint256 tokenId = totalStock();
 
         _mint(owner, tokenId);
         _setTokenURI(tokenId, tokenURI);
 
-        fashionCollection[tokenId] = Item(name, manufacturer, itemCost, tokenJSON);
+        vogueCollection[tokenId] = Item(name, brand, itemCost, tokenJSON);
 
         return tokenId;
     } 
