@@ -28,7 +28,7 @@ PIP
 ## Solidity
 
 Website: https://soliditylang.org/ 
-Documentation: https://docs.soliditylang.org/en/v0.8.17/ 
+Documentation: https://docs.soliditylang.org/en/v0.8.19/
 
 ## Remix
 
