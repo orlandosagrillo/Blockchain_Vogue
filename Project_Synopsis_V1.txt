@@ -1,28 +1,16 @@
 Frontend
-Streamlit UI as D'app
-- assuming customer is logged in (with personal data such as delivery address 
-etc built in & would have option of purchase as guest in D'app.) 
-Can include this as buttons for visual effect
+Streamlit UI as D'app 
+- presuming customer is logged in (with personal info such as delivery address etc built in & would have option of purchasing as guest in D'app.) 
+This could be used as buttons for a visual effect.
 
-Customer can browse for items to buy seeing pics with a description
-Customer can exchange crypto or cash for our coins into their wallet 
-(Enter wallet id or from dropdown list)
-(enter value to exchange)
-They use these coins to buy the product which comes with its unique NFT.
-This way they discretely pay gas for nft minting within the price.
-Coins come out of the wallet and NFT goes in. 
-Confirmation of purchase. (Hash?)
+Customers can search for things to purchase by seeing photos and descriptions.
+Customers can convert crypto or cash for our coins in their wallet (input wallet id or from dropdown list) (enter value to exchange) and then use these coins to purchase the product, which comes with its own NFT.
+This allows them to pay petrol for nft minting while remaining within the price range.
+Coins are removed from the wallet, and NFT is added. 
+Purchase approval. 
 
-Backend
-Solidity ERC721 for NFT 'FASH'
-Solidity ERC20 coin if we have time (if not then ETH from Ganache will do)
-app.py  with register new artwork function or similar but without appraisal function
-pinata.py for minting
-folders of images, 
-ready made jsons if it helps for a quicker demo
-can link to my Meta/Ganache and my Pinata if we neeed to
-pinata
+Backend Solidity ERC721 for NFT 'FASH' Solidity ERC20 coin (if not, ETH from Ganache would suffice).
+app.py with a register new artwork function or something similar but no assessment function
+pinata.py for minting picture folders, ready-made jsons if it helps for a faster demo can link to my Meta/Ganache and my Pinata if we need to pinata
 
-Youtube demo and readme
 
-Presentation and submit project
