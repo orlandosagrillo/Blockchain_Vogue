@@ -9,7 +9,7 @@ contract Certificate is ERC721Full {
         public
         returns (uint256)
     {
-        uint256 newCertificateId = totalSupply();
+        uint256 newCertificateId = totalAmount();
         _mint(buyer, newCertificateId);
         _setTokenURI(newCertificateId, description);
 
