@@ -1,17 +1,18 @@
 # Import Libraries
 from secrets import choice
-import streamlit as st
-from PIL import Image
-from pathlib import Path
-from streamlit_image_comparison import image_comparison
-import streamlit.components.v1 as components
-import os
 import json
 from web3 import Web3
 from dotenv import load_dotenv
 import base64
 from pinata import pin_file_to_ipfs, convert_data_to_json, pin_json_to_ipfs
 import io
+import streamlit as st
+from PIL import Image
+from pathlib import Path
+from streamlit_image_comparison import image_comparison
+import streamlit.components.v1 as components
+import os
+
 
 load_dotenv()
 
@@ -36,8 +37,8 @@ with col3:
 
 # Setup for visualisations        
 image_comparison(
-img1="../Resources/Images/shoes.png",
-img2="../Resources/Images/wallet.png",
+img1="../Orlando_Desktop/Images/shoes.png",
+img2="../Orlando_Desktop/Images/wallet.png",
 label1="real vogue",
 label2="digital assets"
 )
@@ -58,7 +59,7 @@ st.markdown(
 def load_contract():
 
     # Load the contract ABI
-    with open(Path('../contracts/compiled/certificate_final_abi.json')) as f:
+    with open(Path('../contracts/compiled/final_certificate.json')) as f:
         contract_abi = json.load(f)
 
     # Set the contract address (this is the address of the deployed contract)
@@ -78,11 +79,12 @@ contract = load_contract()
 
 # Account connection in UI
 account_opt_dict = {
+    "Gucci" : "0x576e2eE34Ad4E1A9842446f7ca12e7CFA47B6d7D",
     "Prada": "0xA3D3A0c7D7Ed93Bbd087bBB69577857aC52ca8Ec",
+    "Harrod" : " 0xD9E0727CBD11023837d3d812Fc42E0154dC9FDa6 ",
     "DandG" : "0x0e67bed69550a19589E481e0AF911b9939405136",
     "Gucci" : "0x576e2eE34Ad4E1A9842446f7ca12e7CFA47B6d7D",
-    "WatchSwiss" : " 0x7fa3d65D65ec94BED3eaEEf0019c9b84E0e63d9A ",
-    "Harrods" : " 0xD9E0727CBD11023837d3d812Fc42E0154dC9FDa6 "
+    "WatchSwiss" : " 0x7fa3d65D65ec94BED3eaEEf0019c9b84E0e63d9A "
     
 }
 
@@ -129,12 +131,12 @@ items = {
     "../Orlando_Desktop/Images/Website_Images/Glasses_Pink.png",
     "../Orlando_Desktop/Images/Website_Images/Shoe_Sneakers.png"],
 "Harrods" :
-    ["../Orlando_Desktop/Images/Harrods Images/Glasses_Black_Ray.png",
-    "../Resources/Images/Harrod_Images/Jacket_Biker.png",
-    "../Resources/Images/Harrod_Images/Jacket_Blazer.png",
-    "../Resources/Images/Harrod_Images/Jacket_Bomber.png",
-    "../Resources/Images/Harrod_Images/Jacket_Cafe_Racer.png",
-    "../Resources/Images/Harrod_Images/Jacket_Field.png"],
+    ["../Orlando_Desktop/Images/Harrod_Images/Glasses_Black_Ray.png",
+    "../Orlando_Desktop/Images/Harrod_Images/Jacket_Biker.png",
+    "../Orlando_Desktop/Images/Harrod_Images/Jacket_Blazer.png",
+    "../Orlando_Desktop/Images/Harrod_Images/Jacket_Bomber.png",
+    "../Orlando_Desktop/Images/Harrod_Images/Jacket_Cafe_Racer.png",
+    "../Orlando_Desktop/Images/Harrod_Images/Jacket_Field.png"],
 "Gucci" :
     ["../Orlando_Desktop/Images/Gucci_Images/Bag_Azure.png",
     "../Orlando_Desktop/Images/Gucci_Images/Bag_Pink.png",
