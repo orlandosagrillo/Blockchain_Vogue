@@ -41,3 +41,6 @@ Documentation : https://remix-ide.readthedocs.io/en/latest/
 
 A content addressing process is used by the Inter Planetary File System (IPFS), a decentralised peer-to-peer file sharing network, to identify each file in a global namespace in a unique way. On the IPFS network, Pinata provides NFT storage.
 
+FINAL PRODUCT - WEBSITE
+
+<img width="519" alt="Screenshot 2023-04-21 at 2 25 41 pm" src="https://user-images.githubusercontent.com/102783432/233540700-cfd41eec-1500-4b27-a2ea-e6a9c98d1a21.png">
