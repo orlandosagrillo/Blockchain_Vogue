@@ -11,7 +11,7 @@ Fintech business "Blockchain_Vogue" designed a prototype stage user interface fo
 
 # Non Fungible Tokens in the Clothing Industry
 
-The market for high-end luxury products is estimated to reach USD 419 billion in 2027. Annually, over $30 billion is lost due to counterfeit goods, and using an NFT as proof of purchase will make it more difficult for people to profit from phoney goods. NFT will not only certify the legality of the items, but will also give a tremendous chance.
+The market for high-end luxury products is estimated to reach USD 419 billion in 2027. Annually, over $30 billion is lost due to counterfeit goods, and utilising an NFT as proof of purchase will make it more difficult for people to profit from phoney goods. NFT will not only certify the legality of the items, but will also give a tremendous chance.
 
 
 ## Streamlit 
