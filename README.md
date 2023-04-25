@@ -7,7 +7,7 @@ This project provides a Streamlit-based user interface via which users may choos
 
 # Conceptualization
 
-Fintech business "Blockchain_Vogue" designed a prototype stage user interface for an anti-counterfeit tool to demonstrate the security and quality of life benefits it can give. This type of action can help to limit the illegal trade in counterfeit goods while also increasing revenue for manufacturers of real high-end products in a volatile global market.
+Fintech business "Blockchain_Vogue" designed a prototype stage user interface for an anti-counterfeit tool to show the security and quality of life benefits it can give. This type of action can help to limit the illegal trade in counterfeit goods while also increasing revenue for manufacturers of real high-end products in a volatile global market.
 
 # Non Fungible Tokens in the Clothing Industry
 
