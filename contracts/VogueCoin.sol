@@ -11,7 +11,7 @@ contract FashionToken is ERC20, ERC20Detailed {
         _;
     }
 
-    constructor(uint initial_supply) ERC20Detailed("VogueToken", "FSHN", 18) public {
+    constructor(uint initial_supply) ERC20Detailed("VogueToken", "VOGUE", 18) public {
         owner = msg.sender;
         _mint(owner, initial_supply);
     }
